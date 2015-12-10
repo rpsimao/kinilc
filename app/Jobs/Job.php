@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace clinik\Jobs;
 
 use Illuminate\Bus\Queueable;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace clinik\Http\Controllers\Auth;
 
-use App\User;
+use clinik\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use clinik\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

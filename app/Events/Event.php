@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace clinik\Events;
 
 abstract class Event
 {

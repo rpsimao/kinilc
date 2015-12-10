@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace clinik\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
