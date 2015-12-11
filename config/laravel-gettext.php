@@ -11,7 +11,7 @@ return array(
      * Default locale: this will be the default for your application.
      * Is to be supposed that all strings are written in this language.
      */
-    'locale' => 'en_US',
+    'locale' => 'en_GB',
 
     /**
      * Supported locales: An array containing all allowed languages
@@ -41,7 +41,7 @@ return array(
     /**
      * Fallback locale: When default locale is not available
      */
-    'fallback-locale' => 'en_US',
+    'fallback-locale' => 'fr_FR',
 
     /**
      * Default domain used for translations: It is the file name for .po and .mo files

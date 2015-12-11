@@ -44,8 +44,12 @@
                 @endforeach
             </ul>
 
+
+
+
             <div class="content">
                 <div class="title">Laravel 5 or not</div>
+                {{ _('Hello From English') }}
             </div>
         </div>
     </body>
