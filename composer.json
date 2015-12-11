@@ -4,12 +4,18 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rpsimao/laravel-gettext.git"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "caouecs/laravel4-lang": "^2.0",
         "overtrue/laravel-lang": "^1.0",
-        "xinax/laravel-gettext": "3.x"
+        "xinax/laravel-gettext": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

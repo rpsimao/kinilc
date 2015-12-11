@@ -11,14 +11,15 @@ return array(
      * Default locale: this will be the default for your application.
      * Is to be supposed that all strings are written in this language.
      */
-    'locale' => 'en_GB',
+    'locale' => 'fr_FR',
 
     /**
      * Supported locales: An array containing all allowed languages
      */
     'supported-locales' => array(
         'en_US',
-        'fr_FR'
+        'fr_FR',
+
     ),
 
     /**
