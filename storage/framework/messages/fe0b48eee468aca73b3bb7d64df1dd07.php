@@ -44,6 +44,9 @@
                 <?php endforeach; ?>
             </ul>
 
+
+
+
             <div class="content">
                 <div class="title">Laravel 5 or not</div>
                 <?php echo e(_('Hello From English')); ?>

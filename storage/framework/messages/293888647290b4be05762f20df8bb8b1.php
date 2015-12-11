@@ -14,6 +14,7 @@ class HomeController extends Controller
      * Changes the current language and returns to previous page
      * @return Redirect
      */
+
     public function changeLang($locale = null){
 
 

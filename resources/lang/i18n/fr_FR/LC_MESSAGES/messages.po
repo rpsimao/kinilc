@@ -1,24 +1,49 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
-"POT-Creation-Date: 2015-12-11 14:47+0000\n"
-"PO-Revision-Date: 2015-12-11 14:47+0000\n"
+"POT-Creation-Date: 2015-12-11 23:41+0000\n"
+"PO-Revision-Date: 2015-12-11 23:44+0000\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-KeywordsList: _\n"
 "X-Poedit-Basepath: ../../../../../app\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: Http/Controllers\n"
 "X-Poedit-SearchPath-1: ../resources/views\n"
 "X-Poedit-SearchPath-2: Console/Commands\n"
-"X-Poedit-SearchPath-3: ../storage/framework/messages/\n"
+"X-Poedit-SearchPath-3: ../storage/framework/messages\n"
 
-#: ../storage/framework/messages/760ec5c4bedc9170c1dc365601706d9c.php:49
-#: ../storage/framework/messages/dec4fc03c2b609d14fff11e94337663b.php:49
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:7
+msgid "Login - Clinik"
+msgstr ""
+
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:95
+msgid "Login"
+msgstr ""
+
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:105
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:107
+msgid "Email"
+msgstr ""
+
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:112
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:114
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:122
+msgid "Remember me"
+msgstr "Souviens-toi de moi"
+
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:129
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: ../storage/framework/messages/fe0b48eee468aca73b3bb7d64df1dd07.php:52
 msgid "Hello From English"
-msgstr "Bonjour De l’anglais"
+msgstr ""

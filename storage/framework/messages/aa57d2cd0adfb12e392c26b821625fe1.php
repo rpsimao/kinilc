@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <!-- Title and other stuffs -->
-    <title>{{ _('Login - Clinik') }}</title>
+    <title><?php echo e(_('Login - Clinik')); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -63,15 +63,14 @@
             <ul class="nav navbar-nav pull-right">
                 <li class="dropdown pull-right">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <i class="fa fa-flag"></i> {{ _('Languages') }}<b class="caret"></b>
+                        <i class="fa fa-user"></i> Admin <b class="caret"></b>
                     </a>
 
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu">
-                            @foreach(Config::get('laravel-gettext.supported-locales') as $locale)
-                                <li><a href="/lang/{{$locale}}">{{$locale}}</a></li>
-                            @endforeach
-
+                        <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                        <li><a href="#"><i class="fa fa-cogs"></i> Settings</a></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out"></i> Logout</a></li>
                     </ul>
                 </li>
 
@@ -93,7 +92,8 @@
                 <div class="widget worange">
                     <!-- Widget head -->
                     <div class="widget-head">
-                        <i class="fa fa-lock"></i> {{ _('Login') }}
+                        <i class="fa fa-lock"></i> <?php echo e(_('Login')); ?>
+
                     </div>
 
                     <div class="widget-content">
@@ -102,16 +102,16 @@
                             <form class="form-horizontal">
                                 <!-- Email -->
                                 <div class="form-group">
-                                    <label class="control-label col-lg-3" for="inputEmail">{{ _('Email') }}</label>
+                                    <label class="control-label col-lg-3" for="inputEmail"><?php echo e(_('Email')); ?></label>
                                     <div class="col-lg-9">
-                                        <input type="text" class="form-control" id="inputEmail" placeholder="{{ _('Email') }}">
+                                        <input type="text" class="form-control" id="inputEmail" placeholder="<?php echo e(_('Email')); ?>">
                                     </div>
                                 </div>
                                 <!-- Password -->
                                 <div class="form-group">
-                                    <label class="control-label col-lg-3" for="inputPassword">{{ _('Password') }}</label>
+                                    <label class="control-label col-lg-3" for="inputPassword"><?php echo e(_('Password')); ?></label>
                                     <div class="col-lg-9">
-                                        <input type="password" class="form-control" id="inputPassword" placeholder="{{ _('Password') }}">
+                                        <input type="password" class="form-control" id="inputPassword" placeholder="<?php echo e(_('Password')); ?>">
                                     </div>
                                 </div>
                                 <!-- Remember me checkbox and sign in button -->
@@ -119,13 +119,14 @@
                                     <div class="col-lg-9 col-lg-offset-3">
                                         <div class="checkbox">
                                             <label>
-                                                <input type="checkbox"> {{ _('Remember me') }}
+                                                <input type="checkbox"> <?php echo e(_('Remember me')); ?>
+
                                             </label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-9 col-lg-offset-3">
-                                    <button type="submit" class="btn btn-info btn-sm">{{ _('Sign in') }}</button>
+                                    <button type="submit" class="btn btn-info btn-sm"><?php echo e(_('Sign in')); ?></button>
 
                                 </div>
                                 <br />
