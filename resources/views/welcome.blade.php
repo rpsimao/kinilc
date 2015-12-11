@@ -37,6 +37,13 @@
     </head>
     <body>
         <div class="container">
+
+            <ul>
+                @foreach(Config::get('laravel-gettext.supported-locales') as $locale)
+                    <li><a href="/lang/{{$locale}}">{{$locale}}</a></li>
+                @endforeach
+            </ul>
+
             <div class="content">
                 <div class="title">Laravel 5 or not</div>
             </div>

@@ -144,6 +144,8 @@ return [
         clinik\Providers\AuthServiceProvider::class,
         clinik\Providers\EventServiceProvider::class,
         clinik\Providers\RouteServiceProvider::class,
+        Xinax\LaravelGettext\LaravelGettextServiceProvider::class,
+
 
     ],
 
