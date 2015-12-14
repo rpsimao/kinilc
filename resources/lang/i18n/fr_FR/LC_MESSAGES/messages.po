@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
-"POT-Creation-Date: 2015-12-11 23:41+0000\n"
-"PO-Revision-Date: 2015-12-11 23:44+0000\n"
+"POT-Creation-Date: 2015-12-12 00:14+0000\n"
+"PO-Revision-Date: 2015-12-12 12:38+0000\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: fr_FR\n"
@@ -22,25 +22,29 @@ msgstr ""
 msgid "Login - Clinik"
 msgstr ""
 
-#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:95
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:64
+msgid "Languages"
+msgstr "Langues"
+
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:94
 msgid "Login"
 msgstr ""
 
-#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:105
-#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:107
-msgid "Email"
-msgstr ""
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:104
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:106
+msgid "Name"
+msgstr "Identifiant"
 
-#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:112
-#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:114
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:111
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:113
 msgid "Password"
 msgstr "Mot de passe"
 
-#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:122
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:121
 msgid "Remember me"
-msgstr "Souviens-toi de moi"
+msgstr "Se souvenir de moi"
 
-#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:129
+#: ../storage/framework/messages/aa57d2cd0adfb12e392c26b821625fe1.php:128
 msgid "Sign in"
 msgstr "Se connecter"
 

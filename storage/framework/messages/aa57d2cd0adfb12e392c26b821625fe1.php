@@ -47,8 +47,6 @@
 
         </div>
 
-
-
         <!-- Navigation starts -->
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 
@@ -63,14 +61,15 @@
             <ul class="nav navbar-nav pull-right">
                 <li class="dropdown pull-right">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <i class="fa fa-user"></i> Admin <b class="caret"></b>
+                        <i class="fa fa-flag"></i> <?php echo e(_('Languages')); ?><b class="caret"></b>
                     </a>
 
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu">
-                        <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
-                        <li><a href="#"><i class="fa fa-cogs"></i> Settings</a></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out"></i> Logout</a></li>
+                            <?php foreach(Config::get('laravel-gettext.supported-locales') as $locale): ?>
+                                <li><a href="/lang/<?php echo e($locale); ?>"><?php echo e($locale); ?></a></li>
+                            <?php endforeach; ?>
+
                     </ul>
                 </li>
 
@@ -102,9 +101,9 @@
                             <form class="form-horizontal">
                                 <!-- Email -->
                                 <div class="form-group">
-                                    <label class="control-label col-lg-3" for="inputEmail"><?php echo e(_('Email')); ?></label>
+                                    <label class="control-label col-lg-3" for="inputName"><?php echo e(_('Name')); ?></label>
                                     <div class="col-lg-9">
-                                        <input type="text" class="form-control" id="inputEmail" placeholder="<?php echo e(_('Email')); ?>">
+                                        <input type="text" class="form-control" id="inputName" placeholder="<?php echo e(_('Name')); ?>">
                                     </div>
                                 </div>
                                 <!-- Password -->

@@ -47,8 +47,6 @@
 
         </div>
 
-
-
         <!-- Navigation starts -->
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 
@@ -68,9 +66,11 @@
 
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu">
-                            @foreach(Config::get('laravel-gettext.supported-locales') as $locale)
-                                <li><a href="/lang/{{$locale}}">{{$locale}}</a></li>
-                            @endforeach
+                        {!! \LaravelGettext::getSelector([
+                            'en_US' => 'English',
+                            'fr_FR' => 'Français',
+                            ])->render(true)
+                        !!}
 
                     </ul>
                 </li>
@@ -102,9 +102,9 @@
                             <form class="form-horizontal">
                                 <!-- Email -->
                                 <div class="form-group">
-                                    <label class="control-label col-lg-3" for="inputEmail">{{ _('Email') }}</label>
+                                    <label class="control-label col-lg-3" for="inputName">{{ _('Name') }}</label>
                                     <div class="col-lg-9">
-                                        <input type="text" class="form-control" id="inputEmail" placeholder="{{ _('Email') }}">
+                                        <input type="text" class="form-control" id="inputName" placeholder="{{ _('Name') }}">
                                     </div>
                                 </div>
                                 <!-- Password -->
